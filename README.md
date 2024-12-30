@@ -4,6 +4,7 @@ https://www.zcyphygeodesy.com/en/h-nd-147.html
     From various heterogeneous geodetic variation time series, using spherical radial basis function approach method in spectral domain, estimate the regional surface load equivalent water height (EWH) and all-element load effect grid time series (usually employed to represent regional time-varying gravity field).
     It is technically required that the long wave parts of the load effects on geodetic variations should be removed to satisfy the regional SRBF approach condition.
     The variations here can be one or more of the following six types of variations. (1) Height anomaly variations (mm) from GNSS-leveling monitoring network, (2) disturbance gravity variations (μGal) from GNSS-gravity monitoring network or CORS-gravity tide stations, (3) ground gravity variations (μGal) from gravity monitoring network or gravity tide stations, (4) ellipsoidal height variations (mm) for CORS network or GNSS monitoring network, (5) normal or orthometric height variations (mm) from leveling monitoring network, and (6) equivalent water height variations (cm) from hydrological monitoring stations.
+![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAgtLbQuQYo3NT11gYwlg44ugk.jpg)
 ## [Geophysical models]
 The Earth’s Load Love number file love_load_cm.dat from a Regional EIAstic Rebound calculator (REAR1.0, 2015).
 ## [Main program for test entrance]
@@ -88,4 +89,5 @@ Output the land water EWH grid file ewh****.dat, residual geodetic variation fil
 ## [Algorithmic formula] ETideLoad4.5 User Reference https://www.zcyphygeodesy.com/en/
     7.3 The file format of 5 kinds of geodetic variation time series
     8.7 Load deformation field approach from heterogeneous variations using SRBFs
-DOS executable file and all input and output data.
+The zip compression package includes the test project in visual studio 2017 - intel fortran integrated environment, DOS executable file and all input and output data.
+![](https://24192633.s21i.faiusr.com/2/ABUIABACGAAgtLbQuQYoiK6GigQwlg44ugk.jpg)
