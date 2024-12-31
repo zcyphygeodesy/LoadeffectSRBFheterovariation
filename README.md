@@ -27,7 +27,7 @@ The Earth’s Load Love number file love_load_cm.dat from a Regional EIAstic Reb
     LoadestmateSRBF(dtmfl,obstmsqdfl,flv,dtrow,inp)
     Input parameters: flv(:,3) – load love numbers.
     Input parameters: dtrow - the column ordinal number of the current variations in the geodetic variation record time series file record.
-Output the land water EWH grid file ewh****.dat, residual geodetic variation file rnt***.txt and 10 kinds of load effect grid files in the following.
+    Output the land water EWH grid file ewh****.dat, residual geodetic variation file rnt***.txt and 10 kinds of load effect grid files in the following.
       SRBFgeoid***.dat is the load effect grid file on geoid or height anomaly (mm).
       SRBFterrgrav***.dat is the load effect grid file on ground gravity (μGal).
       SRBFgravdist***.dat is the load effect grid file on gravity disturbance (μGal).
